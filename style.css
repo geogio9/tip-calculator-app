@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background: hsl(172, 67%, 45%);
+}
+
+.logo {
+    margin: 50px 144px;
+}
+
+.container {
+    padding: 32px;
+    width: 375px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    border-radius: 25px 25px 0px 0px;
+}
+
+/************************************ header **********************************/
+
+/************************************ bill **********************************/
+
+
+.header-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-bottom: 5px;
+
+    color: #5E7A7D;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 6px 19px;
+    border-radius: 5px;
+
+    background: #F3F9FA;
+
+}
+
+.header-inner:hover {
+    border: 1px solid #26C2AE;
+}
+
+.bill_search {
+    height: 35px;
+    width: 261px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    border: none;
+    outline: none;
+
+    mix-blend-mode: normal;
+    opacity: 0.35;
+
+    color: #00474B;
+
+    background: #F3F9FA;
+}
+
+.search:hover {
+    opacity: none;
+}
+
+/************************************ tip **********************************/
+
+.tip {
+    margin: 32px 0;
+}
+
+.tip-title {
+    margin-bottom: 16px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #5E7A7D;
+
+}
+
+.tip-items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.button {
+    width: 146px;
+    height: 48px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    color: #FFFFFF;
+
+    background: #00474B;
+}
+
+.button:hover {
+    color: #00474B;
+    background: #9FE8DF;
+}
+
+.active_tip {
+    color: #00474B;
+    background: #9FE8DF;
+}
+
+.button:checked {
+    background: #9FE8DF;
+}
+
+
+.custom {
+    width: 146px;
+    height: 48px;
+    padding: 6px 17px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    color: #547878;
+
+    background: #F3F9FA;
+}
+
+/************************************ people **********************************/
+
+.people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people-title {
+    margin-bottom: 5px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #5E7A7D;
+}
+
+.error {
+    display: none;
+
+
+    margin-bottom: 5px;
+    margin-right: 8px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+
+    color: #E17457;
+}
+
+.people-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 6px 19px;
+    border-radius: 5px;
+
+    background: #F3F9FA;
+}
+
+.search {
+    height: 35px;
+    width: 261px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    border: none;
+    outline: none;
+
+    mix-blend-mode: normal;
+    opacity: 0.35;
+
+    color: #00474B;
+
+    background: #F3F9FA;
+}
+
+/************************************ footer **********************************/
+
+.footer {
+    padding: 40px 24px 24px;
+    margin-top: 32px;
+    background: #00474B;
+    border-radius: 15px;
+}
+
+.footer-inner {
+    display: grid;
+    row-gap: 20px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+
+    color: #7F9D9F;
+}
+
+.amount {
+    width: 115px;
+    height: 47px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    border: none;
+
+    color: #26C2AE;
+
+    background: #00474B;
+}
+
+.Total {
+    width: 115px;
+    height: 47px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    border: none;
+
+    color: #26C2AE;
+
+    background: #00474B;
+}
+
+.rest {
+    width: 262px;
+    height: 48px;
+
+    padding: 9px 32px;
+    margin-top: 32px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    color: #00474B;
+
+    mix-blend-mode: normal;
+    opacity: 0.35;
+
+    background: #0D686D;
+}
+
+
+/************************************ responsive **********************************/
+
+@media (min-width: 1440px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .logo {
+        margin: 0 400px 87px;
+    }
+
+    /************************************ header **********************************/
+
+    .container {
+        width: 920px;
+        display: flex;
+        column-gap: 40px;
+        padding: 32px 32px 32px 48px;
+        border-radius: 25px;
+    }
+
+    .header {
+        width: 388px;
+    }
+
+    .header-inner {
+        width: 380px;
+    }
+
+    .percent {
+        width: 117px;
+    }
+
+    .button {
+        width: 117px;
+    }
+
+    .custom {
+        width: 121px;
+    }
+
+    .people-inner {
+        width: 380px;
+    }
+
+    /************************************ footer **********************************/
+
+    .footer {
+        margin: 0;
+        padding: 40px;
+        width: 413px;
+    }
+
+    .footer-inner {
+        row-gap: 25px;
+    }
+
+    .amount {
+        width: 143px;
+        height: 71px;
+
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -1px;
+    }
+
+    .Total {
+        width: 143px;
+        height: 71px;
+
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -1px;
+    }
+
+    .rest {
+        width: 333px;
+        margin-top: 122px;
+        transition: background 0.5s;
+    }
+
+    .rest:hover {
+        background: #9FE8DF;
+        opacity: 1;
+    }
+
+}
+
+
+/** წასაშლელი მაგალითი **/
+/* .result{
+    padding: 15px;
+} */
